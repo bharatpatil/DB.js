@@ -1,16 +1,18 @@
 DB.js
 =====
 
-This is a wrapper over mysql and mysql-queues node.js package.<br>
+This is a wrapper over mysql and mysql-queues node.js package.<br/>
 
 Usage:
 Initialize object
+<pre>
 <code>
-var dbClass = require('DB');<br/>
-var options = {};<br/>
-options.host = 'localhost';<br/>    
-options.user = 'root';<br/>
-options.password = 'root';<br/>
-options.database = 'test';<br/>
-var db = new dbClass.DB(options);<br/>
+var dbClass = require('DB');
+var options = {};
+options.host = 'localhost';
+options.user = 'root';
+options.password = 'root';
+options.database = 'test';
+var db = new dbClass.DB(options);
 </code>
+</pre>
